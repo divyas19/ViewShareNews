@@ -1,0 +1,45 @@
+{
+  "status": "ok",
+  "totalResults": 1717,
+  "articles": [
+    {
+      "source": {
+        "id": "wired",
+        "name": "Wired"
+      },
+      "author": "Kate O'Flaherty",
+      "title": "Apple iOS, Google Android Patch Zero-Days in July Security Updates",
+      "description": "Plus: Mozilla fixes two high-severity bugs in Firefox, Citrix fixes a flaw that was used to attack a US-based critical infrastructure organization, and Oracle patches over 500 vulnerabilities.",
+      "url": "https://www.wired.com/story/apple-google-microsoft-zero-day-fix-july-2023/",
+      "urlToImage": "https://media.wired.com/photos/64c4339420abe9537824f97a/191:100/w_1280,c_limit/072723-security-critical-updates-july-an-02.png",
+      "publishedAt": "2023-07-31T11:00:00Z",
+      "content": "CVE-2023-26083 is an issue in Arm Mali GPU driver for Bifrost, Avalon, and Valhall chips, rated as having a moderate impact. The vulnerability was used to deliver spyware to Samsung devices in Decemb… [+4160 chars]"
+    },
+    {
+      "source": {
+        "id": "ars-technica",
+        "name": "Ars Technica"
+      },
+      "author": "Chuong Nguyen",
+      "title": "Dealmaster: Laptops, Apple Watch, EDC essentials, home organization, and more",
+      "description": "Get ready for school with sales on laptops and storage and organizing tools.",
+      "url": "https://arstechnica.com/shopping/2023/07/dealmaster-laptops-apple-watch-edc-essentials-home-organization-and-more/",
+      "urlToImage": "https://cdn.arstechnica.net/wp-content/uploads/2023/01/2022-MacBook-Pro-open-760x380.jpeg",
+      "publishedAt": "2023-07-31T17:34:19Z",
+      "content": "Enlarge/ The display on the 2022 MacBook Pro is outstanding, but not everyone will love the camera notch.\r\n1 with \r\nWhether you're preparing to organize your dorm room or you have some home cleaning … [+19337 chars]"
+    },
+    {
+      "source": {
+        "id": null,
+        "name": "iMore"
+      },
+      "author": "oliver@monkeymanmedia.com (Oliver Haslam)",
+      "title": "Apple Watch Ultra 2 and Series 9 will be the only new wearables from Apple this year",
+      "description": "Apple won’t release an updated Apple Watch SE in 2023, according to a new report.",
+      "url": "https://www.imore.com/health-fitness/apple-watch/apple-watch-ultra-2-and-series-9-will-be-the-only-new-wearables-from-apple-this-year",
+      "urlToImage": "https://cdn.mos.cms.futurecdn.net/bKDBEU8tBLXdeY48vTyviC-1200-80.jpg",
+      "publishedAt": "2023-07-31T15:15:22Z",
+      "content": "Fans of the Apple Watch SE\r\n are going to have to look elsewhere for their budget wearable this year, it seems. A new report suggests that Apple will only update its best Apple Watches\r\n, leaving the… [+1532 chars]"
+    }
+  ]
+}
