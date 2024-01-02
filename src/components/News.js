@@ -80,7 +80,7 @@ export default function News(props) {
   };
 
   useEffect(() => {
-    document.title = `${capitalizeFirstLetter(props.category)} - ViewNewsApp`;
+    document.title = `${capitalizeFirstLetter(props.category)} - ViewShareNews`;
     fetchNews();
   }, []);
 
