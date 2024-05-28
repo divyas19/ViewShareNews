@@ -62,22 +62,15 @@ export default function NavBar() {
                   Entertainment
                 </Link>
               </li>
-            </ul>
-            <form class="d-flex" role="search">
-              <button className="btn btn-light btn-sm">
-                <Link
-                  className="nav-link"
-                  to="/bookmark"
-                  style={{ color: "grey" }}
-                  title="View all Bookmark"
-                >
-                  <h6>View Bookmark</h6>
+              <li className="nav-item">
+                <Link className="nav-link" to="/bookmark">
+                  Bookmark
                 </Link>
-              </button>
-            </form>
+              </li>
+            </ul>
           </div>
         </div>
-      </nav>
-    </div>
+      </nav >
+    </div >
   );
 }
