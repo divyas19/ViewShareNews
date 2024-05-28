@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import "./App.css";
 import NavBar from "./components/NavBar";
-import News from "./components/News";
-import BookmarkNews from "./components/BookmarkNews";
+import NewsPage from "./pages/NewsPage";
+import BookmarkNewsPage from "./pages/BookmarkNewsPage";
 import LoadingBar from "react-top-loading-bar";
 
 export default function App() {
@@ -58,7 +58,7 @@ export default function App() {
             exact
             path="/"
             element={
-              <News
+              <NewsPage
                 setProgress={setProgress}
                 apiKey={apiKey}
                 key="general"
@@ -73,7 +73,7 @@ export default function App() {
             exact
             path="/business"
             element={
-              <News
+              <NewsPage
                 setProgress={setProgress}
                 apiKey={apiKey}
                 key="business"
@@ -89,7 +89,7 @@ export default function App() {
             exact
             path="/entertainment"
             element={
-              <News
+              <NewsPage
                 setProgress={setProgress}
                 apiKey={apiKey}
                 key="entertainment"
@@ -105,7 +105,7 @@ export default function App() {
             exact
             path="/general"
             element={
-              <News
+              <NewsPage
                 setProgress={setProgress}
                 apiKey={apiKey}
                 key="general"
@@ -121,7 +121,7 @@ export default function App() {
             exact
             path="/health"
             element={
-              <News
+              <NewsPage
                 setProgress={setProgress}
                 apiKey={apiKey}
                 key="health"
@@ -137,7 +137,7 @@ export default function App() {
             exact
             path="/science"
             element={
-              <News
+              <NewsPage
                 setProgress={setProgress}
                 apiKey={apiKey}
                 key="science"
@@ -153,7 +153,7 @@ export default function App() {
             exact
             path="/sports"
             element={
-              <News
+              <NewsPage
                 setProgress={setProgress}
                 apiKey={apiKey}
                 key="sports"
@@ -169,7 +169,7 @@ export default function App() {
             exact
             path="/technology"
             element={
-              <News
+              <NewsPage
                 setProgress={setProgress}
                 apiKey={apiKey}
                 key="technology"
@@ -185,7 +185,7 @@ export default function App() {
             exact
             path="/bookmark"
             element={
-              <BookmarkNews
+              <BookmarkNewsPage
                 onDelete={onDelete}
                 handleDeleteAll={handleDeleteAll}
                 bookmarkArray={bookmarkArray}
