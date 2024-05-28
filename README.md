@@ -2,5 +2,5 @@ Created a dynamic news website with ReactJS, featuring real-time news updates so
 
 API - https://newsapi.org/ 
 
-Technologies Used: ReactJS, JavaScript, API Integration
+Technologies Used: ReactJS, JavaScript, API Integration, Bootstrap
 
